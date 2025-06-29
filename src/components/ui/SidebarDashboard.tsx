@@ -39,7 +39,7 @@ export default function SidebarDashboard({
       <div className="flex items-center justify-between px-4 py-4 border-b border-[#404040]">
         <span className="text-lg font-bold text-[#ff6b35]">Categories</span>
         {showClose && (
-          <button onClick={onClose} className="p-1 rounded hover:bg-[#232323]">
+          <button onClick={() => onClose && onClose()} className="p-1 rounded hover:bg-[#232323]" aria-label="Close sidebar">
             <X className="w-6 h-6 text-[#a0a0a0]" />
           </button>
         )}

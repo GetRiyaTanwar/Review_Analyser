@@ -395,11 +395,8 @@ const ReviewPage = () => {
       </div>
       {/* Main content */}
       <div className="flex-1 min-h-screen" style={{ marginLeft: '0', marginTop: 0, marginRight: 0, marginBottom: 0 }}>
-        {/* Header with hamburger */}
+        {/* Header */}
         <div className="flex items-center justify-between mb-6 px-4 md:ml-64 pt-8">
-          <button className="md:hidden p-2 rounded hover:bg-[#232323]" onClick={() => setSidebarOpen(true)}>
-            <Menu className="w-7 h-7 text-[#f5f5f5]" />
-          </button>
           <Button 
             variant="ghost" 
             onClick={() => navigate('/')} 

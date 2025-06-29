@@ -123,9 +123,6 @@ const Home = () => {
             <Sparkles className="h-8 w-8 text-purple-400" />
             <span className="text-2xl font-bold text-white">PersonaReview</span>
           </div>
-          <button className="md:hidden p-2 rounded hover:bg-[#232323]" onClick={() => setSidebarOpen(true)}>
-            <Menu className="w-7 h-7 text-[#f5f5f5]" />
-          </button>
         </header>
         {/* Hero Section */}
         <section className="relative z-10 py-12 px-6 md:ml-64">
